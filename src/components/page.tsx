@@ -21,8 +21,8 @@ export function Page() {
         <div className="container flex h-14 items-center">
           <Link href="/" className="flex items-center space-x-2">
             <Image
-              src="/logo.svg"
-              alt="Sansthaein Aur Samvidhan Logo"
+              src="/technical-approach.png"
+              alt=""
               width={40}
               height={40}
             />
@@ -248,37 +248,11 @@ export function Page() {
 
             <Tabs defaultValue="architecture" className="w-full">
               <TabsList className="grid w-full grid-cols-2 md:grid-cols-5 mb-8">
-                <TabsTrigger value="architecture">Architecture</TabsTrigger>
                 <TabsTrigger value="frontend">Frontend</TabsTrigger>
                 <TabsTrigger value="backend">Backend</TabsTrigger>
                 <TabsTrigger value="game">Game</TabsTrigger>
                 <TabsTrigger value="deployment">Deployment</TabsTrigger>
               </TabsList>
-
-              <TabsContent value="architecture">
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Architecture Overview</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <Image
-                      src="/technical-approach.png"
-                      alt="Technical Architecture Diagram"
-                      width={1200}
-                      height={675}
-                      className="rounded-lg shadow-lg"
-                    />
-                    <ul>
-                      JavaScript, typeScript TypeScript, C++, and Node.js, along
-                      with Next.js and Express.js frameworks, and PostgreSQL
-                      with Prisma as ORM is being utilized Our code is deployed
-                      using Docker and Kubernetes on an AWS server. This setup
-                      ensures scalability, high availability, and easier
-                      management of the backend components of the game.
-                    </ul>
-                  </CardContent>
-                </Card>
-              </TabsContent>
 
               <TabsContent value="frontend">
                 <Card>
@@ -370,7 +344,7 @@ export function Page() {
                   <Image
                     key={tech}
                     src={`/${tech}-logo.svg`}
-                    alt={`${tech} logo`}
+                    alt={``}
                     width={64}
                     height={64}
                     className="rounded-lg shadow-md"
