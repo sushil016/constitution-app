@@ -195,7 +195,7 @@ export function Page() {
                       height={675}
                       className="rounded-lg shadow-lg"
                     /> */}
-                    <ul>JavaScript, TypeScript, C++, and Node.js, along with Next.js and Express.js frameworks, and PostgreSQL with Prisma as ORM is being utilized
+                    <ul>JavaScript, typeScript TypeScript, C++, and Node.js, along with Next.js and Express.js frameworks, and PostgreSQL with Prisma as ORM is being utilized
 Our code is deployed using Docker and Kubernetes on an AWS server.
 This setup ensures scalability, high availability, and easier management of the backend components of the game.</ul>
                   </CardContent>
